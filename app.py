@@ -13,7 +13,7 @@ st.write("Current Working Directory:", os.getcwd())
 st.title("Aviation Data Analysis Dashboard")
 
 # Load Data
-df = pd.read_csv("dataset.csv")
+df = pd.read_csv("https://drive.google.com/file/d/1NC9LnH82uPJJJ8vM1KjM4ZmW4gguEdv6/view?usp=drive_link.csv")
 
 # Sidebar Filters
 st.sidebar.header("Filters")
